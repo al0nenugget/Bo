@@ -384,7 +384,7 @@ body {
       rgba(46, 47, 66, 0.3),
       rgba(46, 47, 66, 0.3)
     ),
-    url(../img/hero/hero-bg_mob.jpg);
+    url(../img/hero/IMG_3039.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -517,7 +517,7 @@ body {
           rgba(46, 47, 66, 0.3),
           rgba(46, 47, 66, 0.3)
         ),
-        url("../img/hero/hero-bg_tab@2x.jpg");
+        url("../img/hero/IMG_3039.jpg");
     }
   }
 
@@ -529,7 +529,7 @@ body {
         rgba(46, 47, 66, 0.3),
         rgba(46, 47, 66, 0.3)
       ),
-      url("../img/hero/hero-bg_tab.jpg");
+      url("../img/hero/IMG_3039.jpg");
   }
 
   .hero-content {
@@ -591,7 +591,7 @@ body {
           rgba(46, 47, 66, 0.3),
           rgba(46, 47, 66, 0.3)
         ),
-        url("../img/hero/hero-bg_desk@2x.jpg");
+        url("../img/hero/IMG_3039.jpg");
     }
   }
 
