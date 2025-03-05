@@ -121,113 +121,39 @@
     <!-- End Header -->
 
     <!-- Hero -->
-    <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MOLOKO</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
-        
-        body {
-            margin: 0;
-            font-family: 'Montserrat', sans-serif;
-        }
-
-        /* MOLOKO Text */
-        .text {
-            font-size: 100px;
-            font-weight: bold;
-            color: black;
-            text-align: center;
-            margin-top: 20vh;
-        }
-
-        /* Hero Section */
-        .hero {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            padding: 50px;
-            background-color: #f9f9f9;
-        }
-
-        .hero-title {
-            font-size: 32px;
-            text-align: center;
-            margin-bottom: 30px;
-        }
-
-        .hero-btn-box {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-        }
-
-        .hero-buy-btn,
-        .hero-made-link {
-            padding: 10px 20px;
-            background-color: #000;
-            color: white;
-            border: none;
-            text-decoration: none;
-            cursor: pointer;
-            border-radius: 5px;
-        }
-
-        .hero-buy-btn:hover,
-        .hero-made-link:hover {
-            background-color: #333;
-        }
-
-        .hero-scroll-btn {
-            margin-top: 30px;
-            padding: 10px 20px;
-            background-color: #000;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-
-        .hero-scroll-ellipse {
-            margin-left: 10px;
-        }
-    </style>
-</head>
-<body>
-    <div class="text">MOLOKO</div>
-
     <section class="hero">
-        <div class="hero-content">
-            <h1 class="hero-title">
-                Treat yourself or a loved one to our finest ingredients for a moment
-                of pure delight!
-            </h1>
-            <div class="hero-btn-box">
-                <ul class="left-btns-list">
-                    <li class="left-btns-item">
-                        <button class="hero-buy-btn" type="button">Buy now</button>
-                    </li>
-                    <li class="left-btns-item">
-                        <a href="#made" class="hero-made-link" aria-label="Go to the 'How it’s made' section">How it’s made</a>
-                    </li>
-                </ul>
+      <div class="hero-content">
+        <h1 class="hero-title">
+          Treat yourself or a loved one to our finest ingredients for a moment
+          of pure delight!
+        </h1>
+        <div class="hero-btn-box">
+          <ul class="left-btns-list">
+            <li class="left-btns-item">
+              <button class="hero-buy-btn" type="button">Buy now</button>
+            </li>
+            <li class="left-btns-item">
+              <a
+                href="#made"
+                class="hero-made-link"
+                aria-label="Go to the 'How it’s made' section"
+                >How it’s made</a
+              >
+            </li>
+          </ul>
 
-                <button type="button" class="hero-scroll-btn">
-                    Scroll down
-                    <span class="hero-scroll-ellipse">
-                        <svg class="hero-scroll-icon">
-                            <title>Scroll down icon</title>
-                            <use href="./img/icons.svg#icon-arrow-down"></use>
-                        </svg>
-                    </span>
-                </button>
-            </div>
+          <button type="button" class="hero-scroll-btn">
+            scroll down
+            <span class="hero-scroll-ellipse">
+              <svg class="hero-scroll-icon">
+                <title>Scroll down icon</title>
+                <use href="./img/icons.svg#icon-arrow-down"></use>
+              </svg>
+            </span>
+          </button>
         </div>
+      </div>
     </section>
-</body>
-</html>
     <!-- End Hero -->
 
     <!-- Benefits Section -->
